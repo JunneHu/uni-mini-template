@@ -1,0 +1,105 @@
+.list-bg {
+  width: 750rpx;
+  background: #fff;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.list-bg .left-bg {
+  width: 180rpx;
+  background: #F7F7F7;
+  border-radius: 0 8rpx 8rpx 0;
+  min-height: 1000rpx;
+  height: 100vh;
+  overflow-y: auto;
+}
+.list-bg .left-bg .item {
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  position: relative;
+  font-size: 28rpx;
+  color: #666;
+}
+.list-bg .left-bg .item.active {
+  background: #fff;
+}
+.list-bg .left-bg .item.active:before {
+  position: absolute;
+  content: '';
+  width: 6rpx;
+  height: 24rpx;
+  background: #3162F4;
+  top: 36rpx;
+  left: 0;
+}
+.list-bg .right-bg {
+  width: 570rpx;
+  padding: 0 20rpx 80rpx;
+  overflow: hidden;
+  overflow-y: auto;
+  min-height: 1000rpx;
+  height: 100vh;
+  padding-top: 20rpx;
+}
+.list-bg .right-bg .item {
+  width: 253rpx;
+  margin-right: 20rpx;
+  margin-bottom: 32rpx;
+  position: relative;
+  float: left;
+}
+.list-bg .right-bg .item:nth-child(2n) {
+  margin-right: 0;
+}
+.list-bg .right-bg .item .img-bg {
+  width: 254rpx;
+  height: 172rpx;
+  background: #FAF9F9;
+  margin-bottom: 20rpx;
+  text-align: center;
+  padding-top: 26rpx;
+  border-radius: 16rpx;
+}
+.list-bg .right-bg .item .img-bg image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.list-bg .right-bg .item .name {
+  white-space: pre-wrap;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #000;
+  text-align: left;
+  height: 32rpx;
+  line-height: 32rpx;
+  width: 250rpx;
+  margin-top: 14rpx;
+  margin-bottom: 12rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list-bg .right-bg .item .price {
+  font-size: 28rpx;
+  height: 30rpx;
+  text-align: left;
+  color: #FE9A5B;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.list-bg .right-bg .item .price .small {
+  font-size: 20rpx;
+}
+.list-bg .right-bg .item .del-price {
+  text-decoration: line-through;
+  text-align: left;
+  height: 20rpx;
+  line-height: 20rpx;
+  font-size: 20rpx;
+  color: #B3B3B3;
+}
+

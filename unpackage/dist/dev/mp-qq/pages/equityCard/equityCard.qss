@@ -1,0 +1,183 @@
+.home-bg {
+  width: 750rpx;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: #262525;
+  padding: 24rpx 0 100rpx;
+}
+.home-bg image {
+  width: 750rpx;
+  background-size: 100%;
+  margin-bottom: 34rpx;
+}
+.home-bg .advantage {
+  padding: 0 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 20rpx;
+  color: rgba(226, 193, 134, 0.8);
+  vertical-align: middle;
+  line-height: 26rpx;
+  margin-bottom: 34rpx;
+}
+.home-bg .buy-area {
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.home-bg .p-foot,
+.home-bg .pro-btn-bg {
+  width: 678rpx;
+  margin: 16rpx auto;
+  height: 100rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/f0841a1a86fb4713ac1ae9381cccf423.png') no-repeat;
+  background-size: 100%;
+  border-radius: 61rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 12rpx 0 rgba(0, 0, 0, 0.5), 0 0.04rpx 0.28rpx 0 rgba(0, 0, 0, 0.5);
+}
+.home-bg .p-foot .price-bg,
+.home-bg .pro-btn-bg .price-bg {
+  float: left;
+  display: inline-block;
+  padding-left: 90rpx;
+  padding-top: 10rpx;
+  color: #331308;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.home-bg .p-foot .price-bg .price,
+.home-bg .pro-btn-bg .price-bg .price {
+  font-size: 36rpx;
+  color: #CE1C33;
+  padding-left: 5rpx;
+}
+.home-bg .p-foot .price-bg .small,
+.home-bg .pro-btn-bg .price-bg .small {
+  color: rgba(38, 37, 37, 0.4);
+  font-size: 24rpx;
+  text-decoration: line-through;
+  display: block;
+  margin-top: 5rpx;
+  font-weight: 700;
+}
+.home-bg .p-foot .price-bg.no-buy,
+.home-bg .pro-btn-bg .price-bg.no-buy {
+  background: #DBC59F;
+  color: #331308;
+  text-align: center;
+  display: block;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  padding: 0;
+  font-weight: 700;
+}
+.home-bg .p-foot .buy-btn,
+.home-bg .pro-btn-bg .buy-btn {
+  background: transparent;
+  border: none;
+  float: right;
+  width: 254rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 53rpx;
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: 700;
+}
+.home-bg .p-foot .buy-btn:disabled,
+.home-bg .pro-btn-bg .buy-btn:disabled {
+  background: rgba(228, 38, 63, 0.5);
+}
+.home-bg .pro-bg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 500rpx;
+  z-index: 5;
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  background: #262525;
+  padding: 60rpx 36rpx 0;
+}
+.home-bg .pro-bg .close-icon {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/1878a13574b5413bb57117aca5d0d6c4.png') no-repeat;
+  background-size: contain;
+}
+.home-bg .pro-bg .title {
+  line-height: 48rpx;
+  margin-bottom: 16rpx;
+  color: #E8BE61;
+  font-size: 28rpx;
+}
+.home-bg .pro-bg .con {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.home-bg .pro-bg .con .item {
+  min-width: 100rpx;
+  margin: 0 24rpx 24rpx 0;
+  border: 2rpx solid #E8BE61;
+  padding: 0 12rpx;
+  line-height: 30rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+  border-radius: 16rpx;
+  font-size: 28rpx;
+  color: #E8BE61;
+}
+.home-bg .pro-bg .con .item.active {
+  background: #E8BE61;
+  color: #262525;
+}
+.home-bg .pro-bg .p-foot {
+  margin-top: 100rpx;
+}
+.home-bg .my-btn {
+  width: 52rpx;
+  height: 136rpx;
+  line-height: 26rpx;
+  background: -webkit-linear-gradient(top, #fdd080 0%, #c89742 100%);
+  background: linear-gradient(180deg, #fdd080 0%, #c89742 100%);
+  box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.5), 0 4rpx 28rpx 0 rgba(0, 0, 0, 0.5);
+  border-radius: 6rpx 0 0 6rpx;
+  position: fixed;
+  bottom: 142rpx;
+  right: 0;
+  padding-left: 14rpx;
+  padding-top: 18rpx;
+  font-size: 24rpx;
+  color: #5B3F0C;
+  font-weight: 700;
+}
+

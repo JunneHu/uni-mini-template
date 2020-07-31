@@ -1,0 +1,177 @@
+{
+	"pages": [ {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "福禄充值",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "福禄充值",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/orderList/orderList",
+		"style": {
+			"navigationBarTitleText": "订单列表",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/orderStatus/orderStatus",
+		"style": {
+			"navigationBarTitleText": "订单详情",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/discount/discount",
+		"style": {
+			"navigationBarTitleText": "列表",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/sureOrder/sureOrder",
+		"style": {
+			"navigationBarTitleText": "确认支付",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/getCard/getCard",
+		"style": {
+			"navigationBarTitleText": "查看卡密",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/iosHide/iosHide",
+		"style": {
+			"navigationBarTitleText": "温馨提示",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/hotPage/hotPage",
+		"style": {
+			"navigationBarTitleText": "网络异常",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/about/about",
+		"style": {
+			"navigationBarTitleText": "关于我们",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/list/list",
+		"style": {
+			"navigationBarTitleText": "活动列表",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/paySuccess/paySuccess",
+		"style": {
+			"navigationBarTitleText": "支付成功",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/service/service",
+		"style": {
+			"navigationBarTitleText": "售后服务",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/equityCard/equityCard",
+		"style": {
+			"navigationBarTitleText": "权益包",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/myEquityCard/myEquityCard",
+		"style": {
+			"navigationBarTitleText": "我的权益包",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/rechargeZC/rechargeZC",
+		"style": {
+			"navigationBarTitleText": "兑换",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/rechargeKM/rechargeKM",
+		"style": {
+			"navigationBarTitleText": "查看卡密",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/equityCardStatus/equityCardStatus",
+		"style": {
+			"navigationBarTitleText": "权益状态",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/equityCardPay/equityCardPay",
+		"style": {
+			"navigationBarTitleText": "确认订单",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	}, {
+		"path": "pages/equityCardDetail/equityCardDetail",
+		"style": {
+			"navigationBarTitleText": "权益详情",
+			"enablePullDownRefresh": true,
+			"navigationBarBackgroundColor": "#171717"
+		}
+	},{
+		"path": "pages/rechange/rechange",
+		"style": {
+			"navigationBarTitleText": "兑换中心",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "用户登录",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#2C61FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/icon_home.png",
+			"selectedIconPath": "static/images/icon_home_HL.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/discount/discount",
+			"iconPath": "static/images/icon_activity.png",
+			"selectedIconPath": "static/images/icon_activity_HL.png",
+			"text": "限时5折"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/icon_my.png",
+			"selectedIconPath": "static/images/icon_my_HL.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "福禄充值",
+		"navigationBarBackgroundColor": "#3162F5",
+		"backgroundColor": "#FFFFFF"
+	}
+}

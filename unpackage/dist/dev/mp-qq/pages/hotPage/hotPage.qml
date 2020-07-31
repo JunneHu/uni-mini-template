@@ -1,0 +1,1 @@
+<view class="hot-bg"><image class="hot-img" src="https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/cca4d47f1d14452cab56041b9f89a46b.png"></image><view class="h2">活动火爆</view><view class="h5">请您稍后尝试</view></view>

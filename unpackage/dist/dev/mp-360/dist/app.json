@@ -1,0 +1,173 @@
+{
+  "sdkversion": "1.0.0",
+  "pages": [
+    {
+      "route": "pages/index/index",
+      "window": {
+        "navigationBarTitleText": "福禄充值",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/detail/detail",
+      "window": {
+        "navigationBarTitleText": "福禄充值",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/orderList/orderList",
+      "window": {
+        "navigationBarTitleText": "订单列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/orderStatus/orderStatus",
+      "window": {
+        "navigationBarTitleText": "订单详情",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/discount/discount",
+      "window": {
+        "navigationBarTitleText": "列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/sureOrder/sureOrder",
+      "window": {
+        "navigationBarTitleText": "确认支付",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/getCard/getCard",
+      "window": {
+        "navigationBarTitleText": "查看卡密",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/my/my",
+      "window": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/iosHide/iosHide",
+      "window": {
+        "navigationBarTitleText": "温馨提示",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/hotPage/hotPage",
+      "window": {
+        "navigationBarTitleText": "网络异常",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/about/about",
+      "window": {
+        "navigationBarTitleText": "关于我们",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/list/list",
+      "window": {
+        "navigationBarTitleText": "活动列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "route": "pages/paySuccess/paySuccess",
+      "window": {
+        "navigationBarTitleText": "支付成功",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/service/service",
+      "window": {
+        "navigationBarTitleText": "售后服务",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "route": "pages/equityCard/equityCard",
+      "window": {
+        "navigationBarTitleText": "权益包",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/myEquityCard/myEquityCard",
+      "window": {
+        "navigationBarTitleText": "我的权益包",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/rechargeKM/rechargeKM",
+      "window": {
+        "navigationBarTitleText": "查看卡密",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/rechargeZC/rechargeZC",
+      "window": {
+        "navigationBarTitleText": "兑换",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/equityCardPay/equityCardPay",
+      "window": {
+        "navigationBarTitleText": "确认订单",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/equityCardStatus/equityCardStatus",
+      "window": {
+        "navigationBarTitleText": "权益状态",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/equityCardDetail/equityCardDetail",
+      "window": {
+        "navigationBarTitleText": "权益详情",
+        "enablePullDownRefresh": true,
+        "navigationBarBackgroundColor": "#171717"
+      }
+    },
+    {
+      "route": "pages/rechange/rechange",
+      "window": {}
+    },
+    {
+      "route": "pages/login/login",
+      "window": {}
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "福禄充值",
+    "navigationBarBackgroundColor": "#3162F5",
+    "backgroundColor": "#FFFFFF"
+  }
+}

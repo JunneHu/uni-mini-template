@@ -1,0 +1,108 @@
+.sure-pay {
+  background: #F6F7F7;
+  min-height: 100vh;
+  padding: 0 20rpx 0 28rpx;
+}
+.sure-pay .top {
+  padding-top: 30rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.sure-pay .top .h1 {
+  height: 90rpx;
+  font-size: 72rpx;
+  font-weight: 700;
+  color: #060606;
+  line-height: 90rpx;
+  margin-bottom: 16rpx;
+}
+.sure-pay .top .h1 .small {
+  font-size: 40rpx;
+}
+.sure-pay .top .name {
+  font-size: 28rpx;
+  color: #060606;
+}
+.sure-pay .center {
+  margin-bottom: 20rpx;
+  padding-left: 28rpx;
+  background: #fff;
+  border-radius: 8rpx;
+}
+.sure-pay .center .item {
+  height: 128rpx;
+  line-height: 128rpx;
+  color: #333;
+  font-size: 32rpx;
+  padding-right: 28rpx;
+}
+.sure-pay .center .item:first-child {
+  border-bottom: 2rpx solid #F3F3F3;
+}
+.sure-pay .center .item text {
+  color: #333;
+  font-size: 28rpx;
+  float: right;
+}
+.sure-pay .payType {
+  padding-left: 24rpx;
+  background: #fff;
+}
+.sure-pay .payType .item {
+  padding: 0 24rpx 0 0;
+  height: 128rpx;
+  line-height: 128rpx;
+  color: #333;
+  font-size: 32rpx;
+  border-bottom: 2rpx solid #F3F3F3;
+}
+.sure-pay .payType .item:last-child {
+  border-bottom: none;
+}
+.sure-pay .payType .item .am-radio {
+  width: 48rpx;
+  height: 48rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/c56652acc7854af390e6e74710ba5f8d.png') no-repeat;
+  background-size: contain;
+  float: right;
+  margin-top: 40rpx;
+}
+.sure-pay .payType .item.active .am-radio {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/fab40e81280b4965a1338d948d266003.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .payType .item .icon-img {
+  display: inline-block;
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.sure-pay .payType .item .icon-img.w-img {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/0d6b7d5beaff4babac0d44ab35a5e2ff.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .payType .item .icon-img.z-img {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/27c739053f224c2c9639142d8f5a96eb.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .pay-btn {
+  width: 702rpx;
+  height: 96rpx;
+  background: -webkit-linear-gradient(top, #fde2a4 0%, #b28a4b 100%);
+  background: linear-gradient(180deg, #fde2a4 0%, #b28a4b 100%);
+  border-radius: 48rpx;
+  font-size: 36rpx;
+  color: #331308;
+  margin-top: 200rpx;
+}
+.sure-pay .qrcode-bg {
+  text-align: center;
+  padding: 30rpx 0;
+}
+.sure-pay .qrcode-bg .code {
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+

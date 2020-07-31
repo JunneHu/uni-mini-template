@@ -1,0 +1,1 @@
+<view class="ios-hide"><image src="https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/5ae16e1870af4ed0b118aa421fef3e45.png"></image><view class="txt">由于相关规范，苹果手机用户不支持购买</view><view class="h4"><icon type="warn" color="#828282" size="10"></icon>安卓手机可正常购买</view></view>

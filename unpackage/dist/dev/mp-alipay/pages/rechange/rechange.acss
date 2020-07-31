@@ -1,0 +1,63 @@
+.rechange-bg {
+  background: #f6f6f6;
+  width: 750rpx;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.rechange-bg .swiper,
+.rechange-bg .swiper-item,
+.rechange-bg .swiper-item .img {
+  width: 750rpx;
+  height: 380rpx;
+  margin-bottom: 20rpx;
+}
+.rechange-bg .recharge-goods {
+  margin-bottom: 20rpx;
+  padding: 32rpx 34rpx;
+  background: #fff;
+}
+.rechange-bg .recharge-goods .clear-code {
+  width: 28rpx;
+  height: 28rpx;
+  background-size: 100%;
+  float: right;
+}
+.rechange-bg .recharge-goods .v-title {
+  color: #222;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.rechange-bg .recharge-goods .sub-btn {
+  background: #3162F4;
+  font-size: 36rpx;
+  border-radius: 8rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.rechange-bg .recharge-goods .sub-btn.disabled-btn {
+  background: rgba(49, 98, 244, 0.55);
+  color: #fff;
+}
+.rechange-bg .recharge-goods .input-bg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 32rpx;
+}
+.rechange-bg .recharge-goods .input-bg .code-input {
+  background: #F0F0F0;
+  border-color: #F0F0F0;
+  width: 156rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  box-sizing: border-box;
+  padding: 0 10rpx;
+  text-align: center;
+}
+.rechange-bg .recharge-goods .input-bg .code-input:last-child {
+  margin-right: 0;
+}
+

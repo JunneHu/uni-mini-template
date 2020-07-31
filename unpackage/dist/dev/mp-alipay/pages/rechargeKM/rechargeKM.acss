@@ -1,0 +1,86 @@
+.pro-bg {
+  width: 750rpx;
+  background: #171717;
+  min-height: 100vh;
+  padding: 24rpx;
+}
+.pro-bg .km-con {
+  margin-bottom: 0.2rem;
+  width: 7.02rem;
+  height: 4.58rem;
+  border-radius: 0.08rem;
+  padding: 0.32rem 0.2rem 0.28rem;
+  background: url('http://fulu-ich-oa.oss-cn-hangzhou.aliyuncs.com/1c93cae6ada145908fe98bc8447e1756.png') no-repeat;
+  background-size: 100%;
+}
+.pro-bg .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 0.74rem;
+}
+.pro-bg .info .name {
+  width: 5rem;
+  color: #F5D090;
+  font-size: 0.32rem;
+  line-height: 0.48rem;
+}
+.pro-bg .info .price {
+  width: 1.62rem;
+  color: #F5D090;
+  font-size: 0.32rem;
+  line-height: 0.48rem;
+  text-align: right;
+}
+.pro-bg .info .price text {
+  font-size: 0.24rem;
+  padding-right: 0.12rem;
+}
+.pro-bg .txt-orange {
+  color: #FF8C00;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  margin-bottom: 0.32rem;
+}
+.pro-bg .card-info .h2 {
+  font-size: 0.28rem;
+  font-weight: 500;
+  color: #DCBB7D;
+  line-height: 0.4rem;
+  margin-bottom: 0.32rem;
+}
+.pro-bg .card-info .item {
+  font-size: 0.28rem;
+  line-height: 0.3rem;
+  margin-bottom: 0.32rem;
+  color: #DCBB7D;
+}
+.pro-bg .card-info .item .btn {
+  float: right;
+  font-size: 0.24rem;
+  color: #CAA668;
+}
+.pro-bg .card-info .tips {
+  color: rgba(245, 208, 144, 0.6);
+  font-size: 0.24rem;
+  line-height: 0.34rem;
+}
+.pro-bg .pro-txt {
+  min-height: 2rem;
+  padding: 0.32rem 0.2rem;
+  color: #8E7C5C;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  background: -webkit-linear-gradient(top, #343333 0%, #242424 100%);
+  background: linear-gradient(180deg, #343333 0%, #242424 100%);
+  box-shadow: 0 0.04rem 0.28rem 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.08rem;
+}
+.pro-bg .toServer-btn {
+  width: 120rpx;
+  height: 120rpx;
+  position: fixed;
+  right: 0;
+  bottom: 280rpx;
+}
+

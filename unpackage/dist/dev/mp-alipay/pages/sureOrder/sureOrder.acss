@@ -1,0 +1,162 @@
+.sure-pay {
+  width: 750rpx;
+  padding-bottom: 180rpx;
+  min-height: 100vh;
+  background: #f6f6f6;
+}
+.sure-pay .sure-con {
+  background: #fff;
+  padding: 36rpx 32rpx;
+}
+.sure-pay .sure-con .list-item {
+  margin-bottom: 35rpx;
+  height: 104rpx;
+  position: relative;
+}
+.sure-pay .sure-con .list-item .left-img {
+  float: left;
+  width: 104rpx;
+  height: 104rpx;
+}
+.sure-pay .sure-con .list-item .left-img .img {
+  width: 104rpx;
+  height: 104rpx;
+  border-radius: 8rpx;
+}
+.sure-pay .sure-con .list-item .right-page {
+  margin-left: 134rpx;
+}
+.sure-pay .sure-con .list-item .right-page .title {
+  font-size: 32rpx;
+  color: #333;
+  margin: 12rpx 0 16rpx;
+  line-height: 32rpx;
+  overflow: hidden;
+  height: 32rpx;
+  width: 552rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sure-pay .sure-con .list-item .right-page .num {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 26rpx;
+}
+.sure-pay .goods-info {
+  background: #fff;
+}
+.sure-pay .goods-info .info-list {
+  font-size: 28rpx;
+  margin-bottom: 25rpx;
+  text-align: right;
+  font-size: 26rpx;
+  color: #333;
+}
+.sure-pay .goods-info .info-list .label {
+  color: #999;
+  display: inline-block;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 26rpx;
+  float: left;
+}
+.sure-pay .btn-area {
+  padding: 32rpx;
+  position: fixed;
+  width: 750rpx;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  height: 152rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: right;
+}
+.sure-pay .btn-area button {
+  width: 250rpx;
+  padding: 0;
+  font-size: 30rpx;
+  height: 88rpx;
+  background: #286AFF;
+  margin-left: 21rpx;
+  line-height: 88rpx;
+}
+.sure-pay .btn-area .price {
+  padding-top: 10rpx;
+  font-size: 26rpx;
+  color: #999;
+  width: 500rpx;
+}
+.sure-pay .btn-area .p-num {
+  color: #286AFF;
+  height: 30rpx;
+  line-height: 32rpx;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+}
+.sure-pay .btn-area .p-num .price-num {
+  font-size: 32rpx;
+}
+.sure-pay .payType {
+  padding-left: 36rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.sure-pay .payType .item {
+  padding: 0 36rpx 0 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #333;
+  font-size: 32rpx;
+  border-bottom: 2rpx solid #F3F3F3;
+}
+.sure-pay .payType .item:last-child {
+  border-bottom: none;
+}
+.sure-pay .payType .item .am-radio {
+  width: 48rpx;
+  height: 48rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/c56652acc7854af390e6e74710ba5f8d.png') no-repeat;
+  background-size: contain;
+  float: right;
+  margin-top: 25rpx;
+}
+.sure-pay .payType .item.active .am-radio {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/fab40e81280b4965a1338d948d266003.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .payType .item .icon-img {
+  display: inline-block;
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.sure-pay .payType .item .icon-img.w-img {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/0d6b7d5beaff4babac0d44ab35a5e2ff.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .payType .item .icon-img.z-img {
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/27c739053f224c2c9639142d8f5a96eb.png') no-repeat;
+  background-size: contain;
+}
+.sure-pay .pay-main .qrcode-bg {
+  width: 100%;
+  overflow: hidden;
+  width: 300rpx;
+  height: 300rpx;
+  margin: 50rpx auto 20rpx;
+}
+.sure-pay .pay-main .qrcode-bg .code {
+  width: 300rpx;
+  height: 300rpx;
+}
+.sure-pay .pay-main .time {
+  text-align: center;
+  color: #666;
+}
+

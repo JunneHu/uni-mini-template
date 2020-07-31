@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/orderList/orderList",
+    "pages/orderStatus/orderStatus",
+    "pages/discount/discount",
+    "pages/sureOrder/sureOrder",
+    "pages/getCard/getCard",
+    "pages/my/my",
+    "pages/iosHide/iosHide",
+    "pages/hotPage/hotPage",
+    "pages/about/about",
+    "pages/list/list",
+    "pages/paySuccess/paySuccess",
+    "pages/service/service",
+    "pages/equityCard/equityCard",
+    "pages/myEquityCard/myEquityCard",
+    "pages/rechargeKM/rechargeKM",
+    "pages/rechargeZC/rechargeZC",
+    "pages/equityCardPay/equityCardPay",
+    "pages/equityCardStatus/equityCardStatus",
+    "pages/equityCardDetail/equityCardDetail",
+    "pages/rechange/rechange",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "福禄充值",
+    "navigationBarBackgroundColor": "#3162F5",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#2C61FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/icon_home.png",
+        "selectedIconPath": "static/images/icon_home_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/discount/discount",
+        "iconPath": "static/images/icon_activity.png",
+        "selectedIconPath": "static/images/icon_activity_HL.png",
+        "text": "限时5折"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/icon_my.png",
+        "selectedIconPath": "static/images/icon_my_HL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

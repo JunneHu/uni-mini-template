@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/orderList/orderList",
+    "pages/orderStatus/orderStatus",
+    "pages/discount/discount",
+    "pages/sureOrder/sureOrder",
+    "pages/getCard/getCard",
+    "pages/my/my",
+    "pages/iosHide/iosHide",
+    "pages/hotPage/hotPage",
+    "pages/about/about",
+    "pages/list/list",
+    "pages/paySuccess/paySuccess",
+    "pages/service/service",
+    "pages/equityCard/equityCard",
+    "pages/myEquityCard/myEquityCard",
+    "pages/rechargeZC/rechargeZC",
+    "pages/rechargeKM/rechargeKM",
+    "pages/equityCardStatus/equityCardStatus",
+    "pages/equityCardPay/equityCardPay",
+    "pages/equityCardDetail/equityCardDetail",
+    "pages/rechange/rechange",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "福禄充值",
+    "titleBarColor": "#3162F5",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#2C61FF",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/images/icon_home.png",
+        "activeIcon": "static/images/icon_home_HL.png"
+      },
+      {
+        "pagePath": "pages/discount/discount",
+        "name": "限时5折",
+        "icon": "static/images/icon_activity.png",
+        "activeIcon": "static/images/icon_activity_HL.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "name": "我的",
+        "icon": "static/images/icon_my.png",
+        "activeIcon": "static/images/icon_my_HL.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

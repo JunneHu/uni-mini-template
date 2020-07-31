@@ -1,0 +1,96 @@
+.card-detail {
+  background: #171717;
+  width: 750rpx;
+  min-height: 100vh;
+  padding: 40rpx 34rpx 40rpx 38rpx;
+  box-sizing: border-box;
+}
+.card-detail .top-bg {
+  width: 678rpx;
+  height: 300rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/6205ea8efb064bd4a82e846cbcc708b1.png') no-repeat;
+  background-size: 100%;
+  box-shadow: 0 10rpx 20rpx 0 rgba(0, 0, 0, 0.5), 0 4rpx 28rpx 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  padding: 28rpx 40rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  box-sizing: border-box;
+}
+.card-detail .top-bg .h1 {
+  margin: 0;
+  font-size: 48rpx;
+  font-weight: 500;
+  color: #453215;
+  line-height: 66rpx;
+}
+.card-detail .top-bg .time {
+  color: #453215;
+  line-height: 40rpx;
+  position: absolute;
+  bottom: 28rpx;
+  left: 40rpx;
+  font-size: 28rpx;
+}
+.card-detail .item {
+  width: 680rpx;
+  height: 236rpx;
+  background: url('https://fulu-mall.oss-cn-hangzhou.aliyuncs.com/46e186aef6a34f4da59c366ce52c841f.png') no-repeat;
+  background-size: 100%;
+  box-shadow: 0 4rpx 28rpx 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 20rpx;
+  width: 100%;
+  padding: 0 18rpx 0 38rpx;
+  color: #F5D090;
+  box-sizing: border-box;
+}
+.card-detail .item .top {
+  height: 184rpx;
+  padding-top: 52rpx;
+  line-height: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+}
+.card-detail .item .top .name {
+  width: 448rpx;
+  font-size: 32rpx;
+  padding-right: 20rpx;
+  line-height: 48rpx;
+  box-sizing: border-box;
+}
+.card-detail .item .top .orderno {
+  height: 40rpx;
+  font-size: 24rpx;
+  color: rgba(245, 208, 144, 0.6);
+  line-height: 40rpx;
+}
+.card-detail .item .top .btn-bg {
+  width: 166rpx;
+  height: 70rpx;
+  background: -webkit-linear-gradient(top, #ffb800 0%, #ff8200 100%);
+  background: linear-gradient(180deg, #ffb800 0%, #ff8200 100%);
+  background-size: 100%;
+  box-shadow: 0 4rpx 0 0 #c07324;
+  border-radius: 35rpx;
+  color: #FFFFFF;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}
+.card-detail .item .top .btn-bg.disable {
+  background: #737373;
+  box-shadow: none;
+}
+.card-detail .item .top .btn-bg.userd {
+  background: #C8A465;
+  box-shadow: none;
+}
+.card-detail .item .bottom {
+  height: 52rpx;
+  line-height: 52rpx;
+  text-align: right;
+  color: rgba(245, 208, 144, 0.6);
+  font-size: 28rpx;
+}
+

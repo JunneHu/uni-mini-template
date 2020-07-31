@@ -1,0 +1,143 @@
+.pro-bg {
+  width: 750rpx;
+  background: #171717;
+  min-height: 100vh;
+  padding: 24rpx;
+}
+.pro-bg .zc-con {
+  background: -webkit-linear-gradient(top, #343333 0%, #242424 100%);
+  background: linear-gradient(180deg, #343333 0%, #242424 100%);
+  box-shadow: 0 40rpx 28rpx 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8rpx;
+  padding: 32rpx 20rpx 48rpx;
+  margin-bottom: 20rpx;
+}
+.pro-bg .zc-con .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 36rpx;
+}
+.pro-bg .zc-con .info .name {
+  width: 500rpx;
+  color: #F5D090;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  font-weight: 700;
+}
+.pro-bg .zc-con .info .price {
+  width: 162rpx;
+  color: #F5D090;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  text-align: right;
+  font-weight: 700;
+}
+.pro-bg .zc-con .info .price text {
+  font-size: 24rpx;
+  padding-right: 12rpx;
+  color: rgba(245, 208, 144, 0.6);
+}
+.pro-bg .zc-con .product-modal {
+  padding-top: 24rpx;
+  font-size: 32rpx;
+  color: #F5D090;
+  line-height: 48rpx;
+}
+.pro-bg .zc-con .product-modal .tips-txt {
+  color: rgba(245, 208, 144, 0.6);
+  font-size: 24rpx;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.pro-bg .zc-con .product-modal .charge-account {
+  margin-bottom: 24rpx;
+}
+.pro-bg .zc-con .product-modal .txt-orange {
+  color: #FF8C00;
+  font-size: 24rpx;
+}
+.pro-bg .zc-con .product-modal .page-section {
+  margin-bottom: 20rpx;
+  height: 96rpx;
+  background: transparent;
+  border: 3rpx solid #7E6234;
+  width: 662rpx;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+}
+.pro-bg .zc-con .product-modal .page-section input {
+  height: 88rpx;
+  background: transparent;
+  line-height: 88rpx;
+  width: 658rpx;
+  text-align: left;
+  padding: 0 25rpx;
+  box-sizing: border-box;
+  border-radius: 5rpx;
+  color: #F5D090;
+}
+.pro-bg .zc-con .product-modal .page-section .placeholderClass {
+  font-size: 32rpx;
+  color: rgba(245, 208, 144, 0.6);
+}
+.pro-bg .zc-con .product-modal .page-section .picker {
+  height: 88rpx;
+  line-height: 84rpx;
+  padding: 0 25rpx;
+  width: 686rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 34rpx;
+  position: relative;
+}
+.pro-bg .zc-con .product-modal .page-section .picker .left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 32rpx;
+  color: rgba(245, 208, 144, 0.6);
+}
+.pro-bg .zc-con .product-modal .page-section .picker .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 32rpx;
+  color: rgba(245, 208, 144, 0.6);
+  padding-right: 70rpx;
+  text-align: right;
+}
+.pro-bg .zc-con .product-modal .page-section .picker .right .row-arrow {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 25rpx;
+  right: 50rpx;
+}
+.pro-bg .zc-con .product-modal .pay-btn {
+  width: 100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  background: -webkit-linear-gradient(top, #fde2a4 0%, #b28a4b 100%);
+  background: linear-gradient(180deg, #fde2a4 0%, #b28a4b 100%);
+  border-radius: 48rpx;
+  font-size: 36rpx;
+  color: #331308;
+  font-weight: 700;
+  border: none;
+  margin-top: 32rpx;
+}
+.pro-bg .pro-txt {
+  min-height: 200rpx;
+  padding: 32rpx 20rpx;
+  color: #8E7C5C;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  background: -webkit-linear-gradient(top, #343333 0%, #242424 100%);
+  background: linear-gradient(180deg, #343333 0%, #242424 100%);
+  box-shadow: 0 4rpx 28rpx 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8rpx;
+}
+
